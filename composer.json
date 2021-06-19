@@ -1,0 +1,19 @@
+{
+    "name": "masuduzzaman/simple",
+    "description": "A simple Package to help developer to understand how to develop a package in php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masuduzzaman",
+            "email": "zamanmasudcoder@gmail.com",
+            "homepage":"http://masudwebnotes.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Masuduzzaman\\Simple\\":"src/"
+        }
+    },
+    "require": {}
+}
